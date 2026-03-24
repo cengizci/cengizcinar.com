@@ -108,13 +108,22 @@ export default async () => {
                           marginBottom: "8px",
                           fontSize: 28,
                         },
-                        children: {
-                          type: "span",
-                          props: {
-                            style: { overflow: "hidden", fontWeight: "bold" },
-                            children: new URL(SITE.website).hostname,
+                        children: [
+                          {
+                            type: "span",
+                            props: {
+                              style: { overflow: "hidden", fontWeight: "bold" },
+                              children: new URL(SITE.website).hostname,
+                            },
                           },
-                        },
+                          {
+                            type: "span",
+                            props: {
+                              style: { marginLeft: "16px", opacity: 0.5 },
+                              children: "→ View Portfolio",
+                            },
+                          },
+                        ],
                       },
                     },
                   ],
