@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://cengizcinar.com/about/",
   desc: "Software Developer",
   title: "Cengiz Cinar",
-  ogImage: "og.jpg",
+  ogImage: "og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
