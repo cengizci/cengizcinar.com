@@ -3,7 +3,7 @@ export const SITE = {
   author: "Cengiz Cinar",
   profile: "https://cengizcinar.com/about/",
   desc: "Software Developer specializing in frontend and backend web development. Building clean, reliable applications with TypeScript, React, Java, and Spring Boot.",
-  title: "Cengiz Cinar — Software Developer",
+  title: "Cengiz Cinar",
   ogImage: "og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
