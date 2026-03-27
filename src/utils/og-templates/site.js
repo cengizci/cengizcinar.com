@@ -91,8 +91,13 @@ export default async () => {
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 20, marginTop: "16px", opacity: 0.6 },
-                              children: "TypeScript · React · Java · Spring Boot",
+                              style: {
+                                fontSize: 20,
+                                marginTop: "16px",
+                                opacity: 0.6,
+                              },
+                              children:
+                                "TypeScript · React · Java · Spring Boot",
                             },
                           },
                         ],

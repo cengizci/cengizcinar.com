@@ -75,7 +75,12 @@ const structuredData = {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content={title === SITE.title ? `${SITE.title} — Software Developer | TypeScript & Java` : title} />
+    <meta
+      property="og:title"
+      content={title === SITE.title
+        ? `${SITE.title} — Software Developer | TypeScript & Java`
+        : title}
+    />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
@@ -101,7 +106,12 @@ const structuredData = {
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title === SITE.title ? `${SITE.title} — Software Developer | TypeScript & Java` : title} />
+    <meta
+      property="twitter:title"
+      content={title === SITE.title
+        ? `${SITE.title} — Software Developer | TypeScript & Java`
+        : title}
+    />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={socialImageURL} />
 
